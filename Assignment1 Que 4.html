@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+         <style>
+         div{
+           margin-top: 20px;
+           }
+           #message{
+            height: 60px;
+            width: 250px;
+           }
+     .rating{
+        margin-top: 5px;
+     }
+         </style>     
+</head>
+<body>
+    <h2 style= text-decoration:underline>Form</h2>
+    <div class="form">
+        Name: <input type="text" id="name" >
+     <div id="gender">
+       Sex:
+       <input type="radio" name="gender"> Male
+       <input type="radio" name="gender" > Female
+     </div>
+     <div id ="country">
+        Country:<select>
+            <option  value=""disabled selected> Select an option</option>
+            <option value="India">India</option>
+            <option value="Brazil">Brazil</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+     </div>
+      <div id="message">
+           Message:
+            <div style="margin-top: 0px;">
+             <input type="text" id="message" placeholder="Enter your message here">
+            </div>
+        </div>
+               <div class="subsribe" style="margin-top: 40px;">
+                <input type="checkbox" id="subscribe" name="subscribe"> subscribe..?
+            </div>
+            <div class="submit">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+          </div>
+          <h2 style="text-decoration: underline;">Feedback form</h2>
+           <div class="Name">
+        Name: <input type="text" id="name" placeholder="Write your name" >
+         <div class="Email">
+        Email: <input type="text" id="name" placeholder="Write your email" >
+        <div id="message">
+           Message:
+            <div style="margin-top: 0px;">
+             <input type="text" id="message" >
+            </div>
+        </div>
+        <div style="margin-top: 40px;">
+           Rate us our of 5:
+           <div style="margin-top: 3px;">
+            <div class="rating"><input  type="radio" name="rating" value 1>1</div>
+           <div  class="rating"><input  type="radio" name="rating" value 2>2</div>
+             <div  class="rating"><input  type="radio" name="rating" value 3>3</div>
+             <div  class="rating"><input  type="radio" name="rating" value 4>4</div>
+              <div  class="rating"><input  type="radio" name="rating" value 5>5 </div>
+           </div>
+        </div>
+        <div>
+            <button type="submit" id="submit">Send your message!</button>
+        </div>
+</body>
+</html>
