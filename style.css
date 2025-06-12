@@ -56,3 +56,12 @@ button{
     background-color: #2441e7;
     color: white;
 }
+footer p{
+    text-align: center;
+}
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
