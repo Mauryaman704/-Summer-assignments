@@ -1,0 +1,28 @@
+.media{
+    height: 220px;
+    width: 220px;
+    background-color: black;
+margin-left: auto;
+margin-right:auto;
+margin-top:40px;
+}
+@media (width < 300px) {
+    .media {
+        background-color: green;
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+    .media{
+        background-color: pink;
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    .media{
+        background-color: red;
+    }
+}
+@media (width > 600px) {
+    .media {
+        background-color: blue;
+    }
+}
