@@ -1,0 +1,71 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  background: #1e90ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+    background-image: url(portfolio-background.jpg);
+    background-size: cover;
+    height: 900px;
+    width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#about{
+    background-color:#0C2D48;
+}
+section {
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px #1e90ff;
+   background-color:#0C2D48;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+footer {
+  background: #153649;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid whitesmoke;
+  color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
